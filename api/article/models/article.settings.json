@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "articles",
   "info": {
-    "name": "article",
+    "name": "Article",
     "description": ""
   },
   "options": {
@@ -14,11 +14,11 @@
     "headline": {
       "type": "string"
     },
-    "article": {
-      "type": "richtext"
-    },
     "preview": {
       "type": "text"
+    },
+    "article": {
+      "type": "richtext"
     },
     "created": {
       "type": "date"
