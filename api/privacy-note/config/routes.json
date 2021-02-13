@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/privacy-note",
+      "handler": "privacy-note.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/privacy-note",
+      "handler": "privacy-note.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/privacy-note",
+      "handler": "privacy-note.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "impressums",
+  "info": {
+    "name": "Imprint",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

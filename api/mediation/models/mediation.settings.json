@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "mediations",
+  "info": {
+    "name": "Mediation"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mediation",
+      "handler": "mediation.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mediation",
+      "handler": "mediation.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mediation",
+      "handler": "mediation.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

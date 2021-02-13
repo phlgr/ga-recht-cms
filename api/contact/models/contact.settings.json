@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "name": "Contact",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "street": {
+      "type": "string"
+    },
+    "zipCode": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "houseNumber": {
+      "type": "integer"
+    },
+    "telephone": {
+      "type": "string"
+    },
+    "fax": {
+      "type": "string"
+    },
+    "mail": {
+      "type": "email"
+    }
+  }
+}
